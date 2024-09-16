@@ -2,10 +2,10 @@
 # -*- mode: python ; coding: utf-8 -*-
 block_cipher = None
 
-added_files = [('.\\icons', 'icons')]
+added_files = [('..\\model2450-ui\\src\\icons', 'icons')]
 
-a = Analysis(['main.py'],
-             pathex=['.\\src'],
+a = Analysis(['..\\model2450-ui\\src\\main.py'],
+             pathex=['.\\model2450-ui\\src'],
              binaries=[],
              datas=added_files,
              hiddenimports=[],
@@ -17,10 +17,10 @@ a = Analysis(['main.py'],
              cipher=block_cipher,
              noarchive=False)
 			 
-a.datas += [('\\icons\\mcci_logo.ico','\\icons\\mcci_logo.ico', "DATA")]
-a.datas += [('\\icons\\mcci_logo.png','\\icons\\mcci_logo.png', "DATA")]
-a.datas += [('\\icons\\Color.png','\\icons\\Color.png', "DATA")]
-a.datas += [('\\icons\\mcci_logo_about.png','\\icons\\mcci_logo_about.png', "DATA")]
+a.datas += [('..\\model2450-ui\\src\\icons\\mcci_logo.ico','\\icons\\mcci_logo.ico', "DATA")]
+a.datas += [('..\\model2450-ui\\src\\icons\\mcci_logo.png','\\icons\\mcci_logo.png', "DATA")]
+a.datas += [('..\\model2450-ui\\src\\icons\\Color.png','\\icons\\Color.png', "DATA")]
+a.datas += [('..\\model2450-ui\\src\\icons\\mcci_logo_about.png','\\icons\\mcci_logo_about.png', "DATA")]
 
 
 pyz = PYZ(a.pure, a.zipped_data,
@@ -38,7 +38,7 @@ exe = EXE(pyz,
           disable_windowed_traceback=False,
           target_arch=None,
           codesign_identity=None,
-          entitlements_file=None , icon='.\\icons\\mcci_logo.ico', version = 'versions.rc')
+          entitlements_file=None , icon='..\\model2450-ui\\src\\icons\\mcci_logo.ico', version = 'versions.rc')
 
 coll = COLLECT(exe,
                a.binaries,
