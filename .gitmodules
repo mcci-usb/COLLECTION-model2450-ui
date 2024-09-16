@@ -1,3 +1,6 @@
 [submodule "Cricket"]
 	path = Cricket
 	url = https://github.com/mcci-usb/Cricket
+[submodule "model2450-ui"]
+	path = model2450-ui
+	url = git@github.com:mcci-usb/model2450-ui.git
