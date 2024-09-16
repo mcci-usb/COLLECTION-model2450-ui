@@ -90,7 +90,7 @@ python main.py
 ## Model2450 UI API Library
 
 `model2450lib` api is a python library this library intract with `Model2450 UI`.
-download or clone the repository from [here](https://github.com/mcci-usb/Model2450 UIlib).
+download or clone the repository from [here](https://github.com/mcci-usb/Model2450).
 
 ```shell
 python setup.py install
