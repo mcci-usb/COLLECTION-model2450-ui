@@ -61,13 +61,13 @@ Then change directories to the top level of the cloned repository.
 Development environment
 
 * OS - Windows 10 64 bit
-* Python - 3.7.6
-* wxpython - 4.2.1
-* pyserial - 3.4
+* Python - 3.13.5
+* wxpython - 4.2.3
+* pyserial - 3.5
 * pyinstaller - 4.7
-* matplotlib -1.16.0
+* matplotlib - 3.10.3
 
-Download [python3.7.6](https://www.python.org/downloads/release/python-376/) and install
+Download [python3.13](https://www.python.org/ftp/python/3.13.0/python-3.13.0-amd64.exe) and install
 
 ```shell
 pip install wxpython
@@ -88,7 +88,7 @@ python main.py
 download or clone the repository from [here](https://github.com/mcci-usb/Model2450).
 
 ```shell
-python setup.py install
+pip install .
 ```
 
 Please navigate to dist/ directory and you will find the files .egg file. Example: Model2450 UIapi-1.0.0-py3.7.egg
@@ -131,6 +131,11 @@ the name of zipped folder should be  `MCCI-Model2450-UI-<ver tag>-Windows-Instal
 
 ## Release History
 
+- v2.0.0 Release Model 2450 UI
+
+    -  [#4 adding plotting for stream ](https://github.com/mcci-usb/model2450-ui/commit/d837fcad54a1a84dd0a923c8f14cc0e69c29011c)
+    -  [#6 Model2450 search](https://github.com/mcci-usb/model2450-ui/commit/e47b86699ee8f850378dfbb29ad00de6c4a3fdc9)
+    - [#7 Add Timestampe](https://github.com/mcci-usb/model2450-ui/commit/cb856f3cb22b2ad906e27d251c203b86fca10121)
 - v1.0.0 initial release of Model2450 UI UI
 
   - Initial Release

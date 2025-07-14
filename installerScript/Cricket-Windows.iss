@@ -28,7 +28,7 @@
 #define MyAppDir "Model2450UI"
 #define MyAppName "Model2450UI"
 #define MyProductName "MCCI Model2450UI"
-#define MyAppVersion "1.0.0"
+#define MyAppVersion "2.0.0"
 #define MyAppPublisher "MCCI Corporation"
 #define MyAppURL "https://mcci.com"
 #define MyAppExeName "Model2450UI.exe"
