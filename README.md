@@ -130,6 +130,8 @@ the name of zipped folder should be  `MCCI-Model2450-UI-<ver tag>-Windows-Instal
 
 
 ## Release History
+- v2.1.0 Release Model 2450 UI
+    - [#10 update firmware model](https://github.com/mcci-usb/model2450-ui/pull/11/commits/fb396a0474e582a45cbda59f6b3952b7c6e73ef9)
 
 - v2.0.0 Release Model 2450 UI
 

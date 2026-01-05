@@ -6,7 +6,7 @@
 ;	Inno Setup install script for the Model2450UI-Installer distribution.
 ;
 ; Copyright notice:
-;	This file copyright (C) 2024 by
+;	This file copyright (C) 2025 by
 ;		MCCI Corporation
 ;		3520 Krums Corners Road
 ;		Ithaca, NY  14850
@@ -28,13 +28,13 @@
 #define MyAppDir "Model2450UI"
 #define MyAppName "Model2450UI"
 #define MyProductName "MCCI Model2450UI"
-#define MyAppVersion "2.0.0"
+#define MyAppVersion "2.1.0"
 #define MyAppPublisher "MCCI Corporation"
 #define MyAppURL "https://mcci.com"
 #define MyAppExeName "Model2450UI.exe"
 #define MyAppComments "MCCI Model2450UI Installer"
 #define MyOrgName "MCCI"
-#define MyAppCopyRight "Copyright 2024 MCCI Corporation"
+#define MyAppCopyRight "Copyright 2026 MCCI Corporation"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
