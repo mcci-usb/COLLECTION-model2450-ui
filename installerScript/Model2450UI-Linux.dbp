@@ -1,0 +1,55 @@
+[DEBREATE-0.7.13]
+<<CTRL>>
+Package: Model2450UI
+Version: 2.2.0
+Maintainer: Seenivasan <seenivasanv@mcci.com>
+Section: embedded
+Homepage: www.mcci.com
+Architecture: all
+Priority: optional
+Description: User Interface for controlling MCCI USB Switches  and Connection Exercisers
+
+<</CTRL>>
+<<FILES>>
+1
+/home/Model2450/Model2450/src/icons/mcci_logo.ico -> mcci_logo.ico -> /usr/bin/icons
+/home/Model2450/devrules/99-Model2450UI.rules* -> 99-Model2450UI.rules -> /etc/udev/rules.d
+<</FILES>>
+<<SCRIPTS>>
+<<PREINST>>
+0
+<</PREINST>>
+<<POSTINST>>
+0
+<</POSTINST>>
+<<PRERM>>
+0
+<</PRERM>>
+<<POSTRM>>
+0
+<</POSTRM>>
+<</SCRIPTS>>
+<<CHANGELOG>>
+<<DEST>>DEFAULT<</DEST>>
+
+<</CHANGELOG>>
+<<COPYRIGHT>>
+
+<</COPYRIGHT>>
+<<MENU>>
+1
+Name=Model2450
+Version=2.2.0
+Exec=Model2450
+Icon=/usr/bin/icons/mcci_logo.ico
+Type=Application
+Terminal=false
+StartupNotify=true
+Encoding=UTF-8
+Categories=Development;
+<</MENU>>
+<<BUILD>>
+0
+0
+0
+<</BUILD>>
